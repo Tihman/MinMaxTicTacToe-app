@@ -1,0 +1,128 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.gameContainer {
+  height: 600px;
+  width: 600px;
+  background-color: rgb(153, 153, 153);
+  border: 1px solid black;
+  border-radius: 20px;
+}
+
+.title {
+    text-align: center;
+    margin: 10px auto;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.infoP {
+  border: 1px solid black;
+  padding: 10px;
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+.boardContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 10px;
+  width: 300px;
+  height: 300px;
+}
+
+.cell {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 36px;
+  font-weight: bold;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 16px;
+}
+
+.cell:hover {
+  background-color: #b3b3b3;
+}
+
+.status {
+  margin-top: 20px;
+  /* font-size: 24px; */
+  text-align: center;
+}
+
+.statisticsContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+.statisticsItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  min-width: 150px;
+  background-color: #fff;
+  border: 1px solid black;
+  border-radius: 6px;
+}
+
+.statisticsLabel {
+  font-size: 14px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.statisticsValue {
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.btn {
+    width: 600px;
+    min-height: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 16px;
+    font-size: large;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.btn1 {
+    width: 600px;
+    min-height: 50px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 16px;
+    font-size: large;
+    cursor: pointer;
+    background-color: #fff;
+}
+
+.btn:hover {
+    background-color: #747474;
+}
+
+.btn1:hover {
+    background-color: #747474;
+}

@@ -1,0 +1,79 @@
+.title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.container {
+  background-color: #979797;
+  border: 1px solid black;
+  border-radius: 20px;
+  min-width: 480px;
+  padding: 20px 40px;
+}
+
+.toggleButtons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-width: 400px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.toggleButton {
+  flex: 1;
+  padding: 16px;
+  font-size: 24px;
+  min-width: 250px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggleButton:first-child {
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.toggleButton:last-child {
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.toggleButton.selected {
+  background-color: #2196f3;
+  color: white;
+}
+
+.text {
+  margin-top: 10px;
+  margin-bottom: 0px;
+  text-align: center;
+  color: #fff;
+}
+
+.difficult {
+  display: flex;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.difficult label {
+  margin-right: 10px;
+}
+
+.difficult select {
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 6px 12px;
+  font-size: 16px;
+  color: #333;
+  outline: none;
+  cursor: pointer;
+}
+
+.difficult select:focus {
+  border-color: #2196f3;
+}
